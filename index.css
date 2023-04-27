@@ -1,0 +1,174 @@
+.background-all {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.975);
+    z-index: -2;
+}
+.background-all::before {
+    content: "";
+    position: absolute;
+    width: 762px;
+    height: 761px;
+    left: -20px;
+    top: -175px;
+    border-radius: 50%;
+    background: rgba(0, 98, 255, 3);
+    filter: blur(182px);
+    opacity: 0.78;
+}
+.background-all::after {
+    content: "";
+    position: absolute;
+    top: 300px;
+    left: 1200px;
+    width: 760px;
+    height: 735px;
+    border-radius: 50%;
+    background: #8A29EB;
+    opacity: 0.78;
+    filter: blur(182px);
+    transform: rotate(-180deg);
+}
+.wave-blue{
+    background: url(assets/Wave4-Azul\ 1-3.png);
+    position: absolute;
+    width: 1700px;
+    height: 1800.5px;
+    left: 92px;
+    top: -620px;
+    z-index:-1;
+}
+.container-all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:-10%;
+    width: 100%;
+}
+.recovery{
+    font-family: 'Termina Test', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.1174px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.hr-recovery{
+    background-color: white;
+    width: 100%;
+    height: 1px;
+    margin-top: 10px;
+}
+.reset-password{
+    margin-top: 5rem;
+    font-family: 'Termina Test', sans-serif;                             
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20.1174px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.hey-juan{
+    margin-top: 3rem;
+    font-family: 'Helvetica 35 Thin', sans-serif;
+    color: white;
+}
+.lost-password{
+    margin-top: 1.8rem;
+    font-family: 'Helvetica 35 Thin', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 113.6%;
+    color: white;
+    letter-spacing: 0.05rem;
+}
+.lost-password-2{
+    font-family: 'Helvetica 35 Thin', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 113.6%;
+    color: white;
+    letter-spacing: 0.05rem;
+}
+.verification{
+    font-family: 'Helvetica 35 Thin', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: white;
+    letter-spacing: 0.07rem;
+    margin-top: 5.75rem;
+}
+.code{
+    font-family: 'Helvetica 35 Thin', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 113.6%;
+    text-align: center;
+    letter-spacing: 1.4rem;
+    margin-top: 0.75rem;
+    color: #FFFFFF;
+}
+.change{
+    font-family: 'Helvetica 35 Thin', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 113.6%;
+    color: white;
+    letter-spacing: 0.05rem;
+    margin-top: 8rem;
+}
+.contact{
+    font-family: 'Helvetica 35 Thin', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 113.6%;
+    color: white;
+    letter-spacing: 0.05rem;
+    display: flex;
+    gap: 0.3rem;
+    
+}
+.customer{
+    text-decoration: underline;
+    font-weight: bold;
+    text-underline-position: under;
+}
+.reset-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12.094px 15.1174px 12.094px 22.6762px;
+    gap: 59.71px;
+    width: 487px;
+    height: 35px;
+    font-family: 'Helvetica 25 UltraLight', sans-serif;
+    color: white;
+    background: #428BFA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 37.7936px;
+    letter-spacing: 0.05rem;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 6.8rem;
+    flex: none;
+    order: 11;
+    flex-grow: 0;
+}
+
+ 
+  
